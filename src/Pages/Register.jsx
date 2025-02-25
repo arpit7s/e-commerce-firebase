@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { auth } from "../Firebase/Firebase";
+
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { toast } from "react-toastify";
 
