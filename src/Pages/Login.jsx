@@ -1,7 +1,7 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { auth } from "../firebase/Firebase";
+import { Link, useNavigate } from "react-router-dom";;
+import { auth } from "../Firebase/Firebase";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
